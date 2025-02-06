@@ -1,0 +1,118 @@
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-nav{
+    background-color: black;
+    height: 75px;
+}
+.form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #218838;
+        }
+        .form-container p {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .form-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .form-container a:hover {
+            text-decoration: underline;
+        }
+        .create{
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .h1-post{
+            color: white;
+        }
+        .create h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .create input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .create button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .create button:hover {
+            background-color: #0056b3;
+        }
+        footer{
+            color: white;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            margin-top: auto; 
+            position: fixed; 
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+.log-reg-btn{
+    font-size: 15px;
+    background-color: #AD8555 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bg{
+    background-image: linear-gradient(to right top, #92845b, #a48749, #b98737, #d08524, #eb8012);
+
+}
+.log-reg-btn-nav{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 5px;
+    padding: 10px;
+    color: white;
+}
+.log-reg-btn-nav:hover{
+    background-color: black;
+    color: white;
+}
